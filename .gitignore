@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Configuración del entorno
+.env
+.env.local
+*.sqlite3
+db.sqlite3
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de caché de Django
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3-journal
+
+# Archivos de migraciones de Django
+**/migrations/*
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Dependencias y compilaciones
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+*.egg-info/
+
+# Archivos de OneDrive o sistema
+.DS_Store
+Thumbs.db
